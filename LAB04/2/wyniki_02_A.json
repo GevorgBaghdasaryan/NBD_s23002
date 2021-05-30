@@ -1,0 +1,776 @@
+MongoDB shell version v4.4.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("17392580-bfba-407e-9ab6-225e6116f367") }
+MongoDB server version: 4.4.6
+[
+	{
+		"_id" : "BDT",
+		"Srodki na kartach" : 294843.38,
+		"waluta" : "BDT"
+	},
+	{
+		"_id" : "NZD",
+		"Srodki na kartach" : 355832.98,
+		"waluta" : "NZD"
+	},
+	{
+		"_id" : "THB",
+		"Srodki na kartach" : 2103307.17,
+		"waluta" : "THB"
+	},
+	{
+		"_id" : "LTL",
+		"Srodki na kartach" : 230882.59,
+		"waluta" : "LTL"
+	},
+	{
+		"_id" : "GYD",
+		"Srodki na kartach" : 13053.5,
+		"waluta" : "GYD"
+	},
+	{
+		"_id" : "BBD",
+		"Srodki na kartach" : 26720.5,
+		"waluta" : "BBD"
+	},
+	{
+		"_id" : "CNY",
+		"Srodki na kartach" : 27776263.33,
+		"waluta" : "CNY"
+	},
+	{
+		"_id" : "PHP",
+		"Srodki na kartach" : 8354757.95,
+		"waluta" : "PHP"
+	},
+	{
+		"_id" : "SAR",
+		"Srodki na kartach" : 161706,
+		"waluta" : "SAR"
+	},
+	{
+		"_id" : "KHR",
+		"Srodki na kartach" : 100447.58,
+		"waluta" : "KHR"
+	},
+	{
+		"_id" : "DOP",
+		"Srodki na kartach" : 538809.21,
+		"waluta" : "DOP"
+	},
+	{
+		"_id" : "ILS",
+		"Srodki na kartach" : 766163.99,
+		"waluta" : "ILS"
+	},
+	{
+		"_id" : "BOB",
+		"Srodki na kartach" : 257433.54,
+		"waluta" : "BOB"
+	},
+	{
+		"_id" : "IRR",
+		"Srodki na kartach" : 804397.05,
+		"waluta" : "IRR"
+	},
+	{
+		"_id" : "ISK",
+		"Srodki na kartach" : 39048.74,
+		"waluta" : "ISK"
+	},
+	{
+		"_id" : "BZD",
+		"Srodki na kartach" : 27742.45,
+		"waluta" : "BZD"
+	},
+	{
+		"_id" : "NAD",
+		"Srodki na kartach" : 55420.34,
+		"waluta" : "NAD"
+	},
+	{
+		"_id" : "PKR",
+		"Srodki na kartach" : 687770.55,
+		"waluta" : "PKR"
+	},
+	{
+		"_id" : "FKP",
+		"Srodki na kartach" : 5118.97,
+		"waluta" : "FKP"
+	},
+	{
+		"_id" : "AWG",
+		"Srodki na kartach" : 7282.73,
+		"waluta" : "AWG"
+	},
+	{
+		"_id" : "VND",
+		"Srodki na kartach" : 1418903.3699999999,
+		"waluta" : "VND"
+	},
+	{
+		"_id" : "UYU",
+		"Srodki na kartach" : 237715.67,
+		"waluta" : "UYU"
+	},
+	{
+		"_id" : "MRO",
+		"Srodki na kartach" : 54117.17,
+		"waluta" : "MRO"
+	},
+	{
+		"_id" : "MKD",
+		"Srodki na kartach" : 446949.89,
+		"waluta" : "MKD"
+	},
+	{
+		"_id" : "PAB",
+		"Srodki na kartach" : 363643.61,
+		"waluta" : "PAB"
+	},
+	{
+		"_id" : "HNL",
+		"Srodki na kartach" : 817695.24,
+		"waluta" : "HNL"
+	},
+	{
+		"_id" : "LSL",
+		"Srodki na kartach" : 26269.07,
+		"waluta" : "LSL"
+	},
+	{
+		"_id" : "TTD",
+		"Srodki na kartach" : 44044.89,
+		"waluta" : "TTD"
+	},
+	{
+		"_id" : "TOP",
+		"Srodki na kartach" : 18424.47,
+		"waluta" : "TOP"
+	},
+	{
+		"_id" : "PGK",
+		"Srodki na kartach" : 61445.270000000004,
+		"waluta" : "PGK"
+	},
+	{
+		"_id" : "TMT",
+		"Srodki na kartach" : 113099.62,
+		"waluta" : "TMT"
+	},
+	{
+		"_id" : "MNT",
+		"Srodki na kartach" : 644907.42,
+		"waluta" : "MNT"
+	},
+	{
+		"_id" : "SLL",
+		"Srodki na kartach" : 116224.9,
+		"waluta" : "SLL"
+	},
+	{
+		"_id" : "EUR",
+		"Srodki na kartach" : 16913519.13,
+		"waluta" : "EUR"
+	},
+	{
+		"_id" : "CRC",
+		"Srodki na kartach" : 334544.06,
+		"waluta" : "CRC"
+	},
+	{
+		"_id" : "SZL",
+		"Srodki na kartach" : 59113.090000000004,
+		"waluta" : "SZL"
+	},
+	{
+		"_id" : "HKD",
+		"Srodki na kartach" : 23023.02,
+		"waluta" : "HKD"
+	},
+	{
+		"_id" : "INR",
+		"Srodki na kartach" : 24172.940000000002,
+		"waluta" : "INR"
+	},
+	{
+		"_id" : "KGS",
+		"Srodki na kartach" : 176827.79,
+		"waluta" : "KGS"
+	},
+	{
+		"_id" : "HTG",
+		"Srodki na kartach" : 215992.13,
+		"waluta" : "HTG"
+	},
+	{
+		"_id" : "BGN",
+		"Srodki na kartach" : 502248.52,
+		"waluta" : "BGN"
+	},
+	{
+		"_id" : "VUV",
+		"Srodki na kartach" : 23188.93,
+		"waluta" : "VUV"
+	},
+	{
+		"_id" : "QAR",
+		"Srodki na kartach" : 36358.92,
+		"waluta" : "QAR"
+	},
+	{
+		"_id" : "TWD",
+		"Srodki na kartach" : 37654,
+		"waluta" : "TWD"
+	},
+	{
+		"_id" : "TND",
+		"Srodki na kartach" : 325755.9,
+		"waluta" : "TND"
+	},
+	{
+		"_id" : "KES",
+		"Srodki na kartach" : 273491.26,
+		"waluta" : "KES"
+	},
+	{
+		"_id" : "GMD",
+		"Srodki na kartach" : 157963.9,
+		"waluta" : "GMD"
+	},
+	{
+		"_id" : "CLP",
+		"Srodki na kartach" : 403957.97000000003,
+		"waluta" : "CLP"
+	},
+	{
+		"_id" : "MAD",
+		"Srodki na kartach" : 516264.06,
+		"waluta" : "MAD"
+	},
+	{
+		"_id" : "XPF",
+		"Srodki na kartach" : 132926.01,
+		"waluta" : "XPF"
+	},
+	{
+		"_id" : "CDF",
+		"Srodki na kartach" : 178097.37,
+		"waluta" : "CDF"
+	},
+	{
+		"_id" : "PLN",
+		"Srodki na kartach" : 5127210.21,
+		"waluta" : "PLN"
+	},
+	{
+		"_id" : "ETB",
+		"Srodki na kartach" : 273507.6,
+		"waluta" : "ETB"
+	},
+	{
+		"_id" : "AUD",
+		"Srodki na kartach" : 242667.03,
+		"waluta" : "AUD"
+	},
+	{
+		"_id" : "SRD",
+		"Srodki na kartach" : 19686.77,
+		"waluta" : "SRD"
+	},
+	{
+		"_id" : "DKK",
+		"Srodki na kartach" : 225770.32,
+		"waluta" : "DKK"
+	},
+	{
+		"_id" : "MZN",
+		"Srodki na kartach" : 92068.64,
+		"waluta" : "MZN"
+	},
+	{
+		"_id" : "SCR",
+		"Srodki na kartach" : 14797.58,
+		"waluta" : "SCR"
+	},
+	{
+		"_id" : "SDG",
+		"Srodki na kartach" : 134649.56,
+		"waluta" : "SDG"
+	},
+	{
+		"_id" : "WST",
+		"Srodki na kartach" : 30739.64,
+		"waluta" : "WST"
+	},
+	{
+		"_id" : "BSD",
+		"Srodki na kartach" : 55361.39,
+		"waluta" : "BSD"
+	},
+	{
+		"_id" : "HRK",
+		"Srodki na kartach" : 699650.32,
+		"waluta" : "HRK"
+	},
+	{
+		"_id" : "LYD",
+		"Srodki na kartach" : 197545.65,
+		"waluta" : "LYD"
+	},
+	{
+		"_id" : "CUP",
+		"Srodki na kartach" : 517904.09,
+		"waluta" : "CUP"
+	},
+	{
+		"_id" : "USD",
+		"Srodki na kartach" : 4154939.09,
+		"waluta" : "USD"
+	},
+	{
+		"_id" : "XOF",
+		"Srodki na kartach" : 944111.3,
+		"waluta" : "XOF"
+	},
+	{
+		"_id" : "UZS",
+		"Srodki na kartach" : 334451.77,
+		"waluta" : "UZS"
+	},
+	{
+		"_id" : "GHS",
+		"Srodki na kartach" : 83159.05,
+		"waluta" : "GHS"
+	},
+	{
+		"_id" : "IQD",
+		"Srodki na kartach" : 167531.82,
+		"waluta" : "IQD"
+	},
+	{
+		"_id" : "NOK",
+		"Srodki na kartach" : 776758.6,
+		"waluta" : "NOK"
+	},
+	{
+		"_id" : "AED",
+		"Srodki na kartach" : 52973.33,
+		"waluta" : "AED"
+	},
+	{
+		"_id" : "ARS",
+		"Srodki na kartach" : 1967570.17,
+		"waluta" : "ARS"
+	},
+	{
+		"_id" : "HUF",
+		"Srodki na kartach" : 165192.16,
+		"waluta" : "HUF"
+	},
+	{
+		"_id" : "COP",
+		"Srodki na kartach" : 1980543.49,
+		"waluta" : "COP"
+	},
+	{
+		"_id" : "XAF",
+		"Srodki na kartach" : 754247.57,
+		"waluta" : "XAF"
+	},
+	{
+		"_id" : "PYG",
+		"Srodki na kartach" : 291487.63,
+		"waluta" : "PYG"
+	},
+	{
+		"_id" : "OMR",
+		"Srodki na kartach" : 87008.08,
+		"waluta" : "OMR"
+	},
+	{
+		"_id" : "ALL",
+		"Srodki na kartach" : 655866.63,
+		"waluta" : "ALL"
+	},
+	{
+		"_id" : "XCD",
+		"Srodki na kartach" : 168150.01,
+		"waluta" : "XCD"
+	},
+	{
+		"_id" : "AZN",
+		"Srodki na kartach" : 403856.73,
+		"waluta" : "AZN"
+	},
+	{
+		"_id" : "BMD",
+		"Srodki na kartach" : 5189,
+		"waluta" : "BMD"
+	},
+	{
+		"_id" : "DZD",
+		"Srodki na kartach" : 12166.2,
+		"waluta" : "DZD"
+	},
+	{
+		"_id" : "UAH",
+		"Srodki na kartach" : 2531920.9,
+		"waluta" : "UAH"
+	},
+	{
+		"_id" : "MXN",
+		"Srodki na kartach" : 1568281.9,
+		"waluta" : "MXN"
+	},
+	{
+		"_id" : "STD",
+		"Srodki na kartach" : 4854.36,
+		"waluta" : "STD"
+	},
+	{
+		"_id" : "MWK",
+		"Srodki na kartach" : 88106.83,
+		"waluta" : "MWK"
+	},
+	{
+		"_id" : "CVE",
+		"Srodki na kartach" : 46538.51,
+		"waluta" : "CVE"
+	},
+	{
+		"_id" : "FJD",
+		"Srodki na kartach" : 9321.43,
+		"waluta" : "FJD"
+	},
+	{
+		"_id" : "GTQ",
+		"Srodki na kartach" : 597758.09,
+		"waluta" : "GTQ"
+	},
+	{
+		"_id" : "VEF",
+		"Srodki na kartach" : 638306.07,
+		"waluta" : "VEF"
+	},
+	{
+		"_id" : "GBP",
+		"Srodki na kartach" : 243512.86,
+		"waluta" : "GBP"
+	},
+	{
+		"_id" : "SEK",
+		"Srodki na kartach" : 3738579.57,
+		"waluta" : "SEK"
+	},
+	{
+		"_id" : "SSP",
+		"Srodki na kartach" : 42256.53,
+		"waluta" : "SSP"
+	},
+	{
+		"_id" : "RON",
+		"Srodki na kartach" : 11557.6,
+		"waluta" : "RON"
+	},
+	{
+		"_id" : "LRD",
+		"Srodki na kartach" : 54883.45,
+		"waluta" : "LRD"
+	},
+	{
+		"_id" : "LKR",
+		"Srodki na kartach" : 225111.38999999998,
+		"waluta" : "LKR"
+	},
+	{
+		"_id" : "ERN",
+		"Srodki na kartach" : 21598.47,
+		"waluta" : "ERN"
+	},
+	{
+		"_id" : "NPR",
+		"Srodki na kartach" : 146606.65,
+		"waluta" : "NPR"
+	},
+	{
+		"_id" : "DJF",
+		"Srodki na kartach" : 14734.27,
+		"waluta" : "DJF"
+	},
+	{
+		"_id" : "RUB",
+		"Srodki na kartach" : 8648162.27,
+		"waluta" : "RUB"
+	},
+	{
+		"_id" : "JPY",
+		"Srodki na kartach" : 2601019.27,
+		"waluta" : "JPY"
+	},
+	{
+		"_id" : "CAD",
+		"Srodki na kartach" : 1998158.32,
+		"waluta" : "CAD"
+	},
+	{
+		"_id" : "SGD",
+		"Srodki na kartach" : 12820.48,
+		"waluta" : "SGD"
+	},
+	{
+		"_id" : "MDL",
+		"Srodki na kartach" : 173318.73,
+		"waluta" : "MDL"
+	},
+	{
+		"_id" : "BAM",
+		"Srodki na kartach" : 415965.47,
+		"waluta" : "BAM"
+	},
+	{
+		"_id" : "PEN",
+		"Srodki na kartach" : 2381759.99,
+		"waluta" : "PEN"
+	},
+	{
+		"_id" : "KRW",
+		"Srodki na kartach" : 446738.59,
+		"waluta" : "KRW"
+	},
+	{
+		"_id" : "MMK",
+		"Srodki na kartach" : 226778.17,
+		"waluta" : "MMK"
+	},
+	{
+		"_id" : "LBP",
+		"Srodki na kartach" : 43326.06,
+		"waluta" : "LBP"
+	},
+	{
+		"_id" : "UGX",
+		"Srodki na kartach" : 345203.25,
+		"waluta" : "UGX"
+	},
+	{
+		"_id" : "ZMW",
+		"Srodki na kartach" : 160940.53,
+		"waluta" : "ZMW"
+	},
+	{
+		"_id" : "RWF",
+		"Srodki na kartach" : 43299.96,
+		"waluta" : "RWF"
+	},
+	{
+		"_id" : "BIF",
+		"Srodki na kartach" : 45782.33,
+		"waluta" : "BIF"
+	},
+	{
+		"_id" : "KPW",
+		"Srodki na kartach" : 227902.01,
+		"waluta" : "KPW"
+	},
+	{
+		"_id" : "ZWL",
+		"Srodki na kartach" : 147943.58,
+		"waluta" : "ZWL"
+	},
+	{
+		"_id" : "TRY",
+		"Srodki na kartach" : 18414.53,
+		"waluta" : "TRY"
+	},
+	{
+		"_id" : "AFN",
+		"Srodki na kartach" : 677925.57,
+		"waluta" : "AFN"
+	},
+	{
+		"_id" : "KMF",
+		"Srodki na kartach" : 138004.7,
+		"waluta" : "KMF"
+	},
+	{
+		"_id" : "EGP",
+		"Srodki na kartach" : 538164.28,
+		"waluta" : "EGP"
+	},
+	{
+		"_id" : "BRL",
+		"Srodki na kartach" : 5676516.76,
+		"waluta" : "BRL"
+	},
+	{
+		"_id" : "BTN",
+		"Srodki na kartach" : 37711.08,
+		"waluta" : "BTN"
+	},
+	{
+		"_id" : "YER",
+		"Srodki na kartach" : 583657.38,
+		"waluta" : "YER"
+	},
+	{
+		"_id" : "CZK",
+		"Srodki na kartach" : 2668722.74,
+		"waluta" : "CZK"
+	},
+	{
+		"_id" : "JMD",
+		"Srodki na kartach" : 201447.71,
+		"waluta" : "JMD"
+	},
+	{
+		"_id" : "AMD",
+		"Srodki na kartach" : 628234.91,
+		"waluta" : "AMD"
+	},
+	{
+		"_id" : "KZT",
+		"Srodki na kartach" : 601904.37,
+		"waluta" : "KZT"
+	},
+	{
+		"_id" : "JOD",
+		"Srodki na kartach" : 214942.07,
+		"waluta" : "JOD"
+	},
+	{
+		"_id" : "NIO",
+		"Srodki na kartach" : 263374.09,
+		"waluta" : "NIO"
+	},
+	{
+		"_id" : "MGA",
+		"Srodki na kartach" : 382347.12,
+		"waluta" : "MGA"
+	},
+	{
+		"_id" : "RSD",
+		"Srodki na kartach" : 822119.3,
+		"waluta" : "RSD"
+	},
+	{
+		"_id" : "NGN",
+		"Srodki na kartach" : 1301224.95,
+		"waluta" : "NGN"
+	},
+	{
+		"_id" : "BND",
+		"Srodki na kartach" : 7782.66,
+		"waluta" : "BND"
+	},
+	{
+		"_id" : "BWP",
+		"Srodki na kartach" : 146972.04,
+		"waluta" : "BWP"
+	},
+	{
+		"_id" : "MYR",
+		"Srodki na kartach" : 671978.45,
+		"waluta" : "MYR"
+	},
+	{
+		"_id" : "KWD",
+		"Srodki na kartach" : 88501.85,
+		"waluta" : "KWD"
+	},
+	{
+		"_id" : "TZS",
+		"Srodki na kartach" : 617053.52,
+		"waluta" : "TZS"
+	},
+	{
+		"_id" : "CHF",
+		"Srodki na kartach" : 108940.64,
+		"waluta" : "CHF"
+	},
+	{
+		"_id" : "AOA",
+		"Srodki na kartach" : 67582.8,
+		"waluta" : "AOA"
+	},
+	{
+		"_id" : "SYP",
+		"Srodki na kartach" : 511625.27,
+		"waluta" : "SYP"
+	},
+	{
+		"_id" : "BHD",
+		"Srodki na kartach" : 22698.46,
+		"waluta" : "BHD"
+	},
+	{
+		"_id" : "TJS",
+		"Srodki na kartach" : 177401.05,
+		"waluta" : "TJS"
+	},
+	{
+		"_id" : "SOS",
+		"Srodki na kartach" : 82203.48,
+		"waluta" : "SOS"
+	},
+	{
+		"_id" : "MVR",
+		"Srodki na kartach" : 32068.850000000002,
+		"waluta" : "MVR"
+	},
+	{
+		"_id" : "ANG",
+		"Srodki na kartach" : 21354.39,
+		"waluta" : "ANG"
+	},
+	{
+		"_id" : "SBD",
+		"Srodki na kartach" : 9983,
+		"waluta" : "SBD"
+	},
+	{
+		"_id" : "MOP",
+		"Srodki na kartach" : 5337.77,
+		"waluta" : "MOP"
+	},
+	{
+		"_id" : "ZAR",
+		"Srodki na kartach" : 947722.84,
+		"waluta" : "ZAR"
+	},
+	{
+		"_id" : "MUR",
+		"Srodki na kartach" : 182130.48,
+		"waluta" : "MUR"
+	},
+	{
+		"_id" : "IDR",
+		"Srodki na kartach" : 15803638.67,
+		"waluta" : "IDR"
+	},
+	{
+		"_id" : "LAK",
+		"Srodki na kartach" : 86305.05,
+		"waluta" : "LAK"
+	},
+	{
+		"_id" : "GEL",
+		"Srodki na kartach" : 157276.96,
+		"waluta" : "GEL"
+	},
+	{
+		"_id" : "KYD",
+		"Srodki na kartach" : 16809.66,
+		"waluta" : "KYD"
+	},
+	{
+		"_id" : "GNF",
+		"Srodki na kartach" : 73222.48,
+		"waluta" : "GNF"
+	},
+	{
+		"_id" : "BYR",
+		"Srodki na kartach" : 693053.85,
+		"waluta" : "BYR"
+	}
+]
