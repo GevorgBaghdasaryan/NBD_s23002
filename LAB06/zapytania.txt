@@ -1,0 +1,59 @@
+// 1
+MATCH path = shortestPath((darj:town {name:"Darjeeling"})-[*]->(sand:peak {name:"Sandakphu"}))
+RETURN path
+
+//2
+MATCH path = shortestPath((darj:town {name:"Darjeeling"})-[*]->(sand:peak {name:"Sandakphu"})) 
+WHERE ALL (r IN relationships(path) WHERE r.winter = "true")
+RETURN path
+
+//3a
+MATCH path = ((start:town {name: "Darjeeling"})-[*]->(finish:peak { name:"Sandakphu" }))
+RETURN path, reduce(tempDistance=0, path IN relationships(path)|tempDistance + path.distance) AS finalDistance 
+ORDER BY finalDistance ASC
+
+
+//3b
+MATCH (start:town{name: "Darjeeling"})-[path:twowheeler]->(bikeLoc) 
+WHERE path.summer="True" 
+RETURN bikeLoc
+
+
+//4
+MATCH (a:Airport)<-[:ORIGIN]-(f:Flight)
+WITH a, count(f) as f
+RETURN a, f
+ORDER BY f ASC
+
+
+//5 
+MATCH flights = (origin:Airport { name:"LAX" })<-[r1:ORIGIN]-(:Flight)-[r2:ORIGIN|DESTINATION*..10]->(destination:Airport)
+WHERE REDUCE(acc = 0, n IN [x IN NODES(flights) WHERE 'Flight' IN LABELS(x)] |
+  acc + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]
+  ) < 3000
+RETURN flights 
+
+
+//6
+MATCH flight = (origin:Airport { name:"LAX" })<-[r1:ORIGIN]-(:Flight)-[r2:ORIGIN|DESTINATION*..10]->(destination:Airport {name: "DAY"})
+WITH flight, REDUCE(acc = 0, n IN [x IN NODES(flight) WHERE 'Flight' IN LABELS(x)] |
+  acc + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]
+  ) as price
+RETURN flight, price
+
+//7
+MATCH flight = (origin:Airport { name:"LAX" })<-[r1:ORIGIN]-(:Flight)-[r2:ORIGIN|DESTINATION*..10]->(destination:Airport {name: "DAY"})
+WITH flight, REDUCE(acc = 0, n IN [x IN NODES(flight) WHERE 'Flight' IN LABELS(x)] |
+  acc + [(n)<-[:ASSIGN]-(ticket) | ticket.price][0]
+  ) as price
+RETURN flight, price
+ORDER BY price asc LIMIT 1
+
+//8
+MATCH flight = (origin:Airport { name:"LAX" })<-[r1:ORIGIN]-(:Flight)-[r2:ORIGIN|DESTINATION*..10]->(destination:Airport {name: "DAY"})
+WITH p, REDUCE(acc = 0, n IN [x IN NODES(flight) WHERE 'Flight' IN LABELS(x)] |
+  acc + [(n)<-[:ASSIGN]-(ticket {class: 'business'}) | ticket.price][0]
+  ) as price
+RETURN flight, price
+
+
