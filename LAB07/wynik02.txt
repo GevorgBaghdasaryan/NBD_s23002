@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdhM71XZChBJZ81gZKmd43+LLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23002>; rel="up"
+Last-Modified: Sat, 26 Jun 2021 12:24:25 GMT
+ETag: "5uYjZAJGLnzIflJj62uxcy"
+Date: Sat, 26 Jun 2021 12:31:51 GMT
+Content-Type: application/json
+Content-Length: 92
+
+{"name": "Gev", "surname": "Baghdasaryan", "age": 22, "hasPet":FALSE, "livesInWarsaw": TRUE}

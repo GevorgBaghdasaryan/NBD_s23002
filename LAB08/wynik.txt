@@ -1,0 +1,5 @@
+Dodany nowy record
+Dane: {"name": "Gevorg", "surname": "Baghdasaryan", "age": 22, "hasPet":FALSE, "livesinWarsaw": TRUE}
+Zmodyfikowano pole hasPet: {"name": "Gevorg", "surname": "Baghdasaryan", "age": 22, "hasPet":TRUE, "livesinWarsaw": TRUE}
+Usunieto record
+Pobieranie danych usunietych: None

@@ -1,0 +1,37 @@
+Zadanie 1:
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Gev", "surname": "Baghdasaryan", "age": 22, "hasPet":FALSE, "livesinWarsaw": TRUE}' http://172.18.0.2:8098/buckets/s23002/keys/gevorg
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Artur", "surname": "Kowalski", "age": 25, "hasPet":TRUE, "livesinWarsaw": FALSE}' http://172.18.0.2:8098/buckets/s23002/keys/artur
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Tomasz", "surname": "Konieczny", "age": 70, "hasPet":TRUE, "livesinWarsaw": FALSE}' http://172.18.0.2:8098/buckets/s23002/keys/tomasz
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Robert", "surname": "Lewandowski", "age": 33, "hasPet":FALSE, "livesinWarsaw": TRUE}' http://172.18.0.2:8098/buckets/s23002/keys/robert
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Piotr", "surname": "Sitarek", "age": 50, "hasPet":TRUE, "livesinWarsaw": FALSE}' http://172.18.0.2:8098/buckets/s23002/keys/piotr
+
+Zadanie 2:
+curl -i -XGET  http://localhost:8098/buckets/s23002/keys/gevorg
+
+Zadanie 3: 
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Piotr", "surname": "Sitarek", "age": 50, "hasPet":TRUE, "livesinWarsaw": FALSE, "single":TRUE}' http://172.18.0.2:8098/buckets/s23002/keys/piotr
+
+Zadanie 4:
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Robert", "surname": "Lewandowski", "age": 33, "livesinWarsaw": TRUE}' http://172.18.0.2:8098/buckets/s23002/keys/robert
+
+Zadanie 5:
+curl -i -XPUT -H "Content-Type: application/json" -d '{"name": "Tomasz", "surname": "Konieczny", "age": 70, "hasPet":TRUE, "livesinWarsaw": TRUE}' http://172.18.0.2:8098/buckets/s23002/keys/tomasz
+
+Zadanie 6:
+curl -i -XDELETE http://172.18.0.2:8098/buckets/s23002/keys/piotr
+
+Zadanie 7:
+curl -i -XGET  http://172.18.0.2:8098/buckets/s23002/keys/piotr
+
+Zadanie 8: 
+curl -i -XPOST -d '{"city":"warszawa"}' -H "Content-Type: application/json" http://127.0.0.1:8098/buckets/s23002/keys
+
+Zadanie 9:
+
+curl -i -XGET http://127.0.0.1:8098/buckets/s23002/keys/IiQ0q7JxUEdM1Uu90GCnEdbcv9U
+
+Zadanie 10:
+curl -i -XDELETE http://127.0.0.1:8098/buckets/s23002/keys/IiQ0q7JxUEdM1Uu90GCnEdbcv9U
+
+
+
